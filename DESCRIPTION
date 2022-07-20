@@ -1,0 +1,24 @@
+Package: SeriClustR
+Title: Clustering à partir d'une seriation
+Version: 0.0.0.9000
+Authors@R: c(person(given = "Guillaume",
+           family = "Sapriel",
+           role = c("aut", "cre"),
+           email = ("guillaume.sapriel@uvsq.fr"),
+           comment = c(ORCID = "0000-0003-0549-9376")),
+           person(given = "Noe",
+           family = "Demange",
+           role = "aut",
+           email = ("noe.demange@ens.uvsq.fr")))
+Description: Ce package propose differentes methodes de clustering se basant sur une seriation.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    ade4
+LinkingTo: Rcpp
+Depends: 
+    R (>= 2.10)
+
